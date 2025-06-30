@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    background: rgb(0, 0, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%   ;
+}
+
+.card{
+    height: 500px;
+    width: 700px;
+    background: white;
+    display: flex;
+    border-radius:15px ;
+    overflow: hidden;
+    align-self: center;
+}
+img {
+    width: 50%;
+    height: 100%;
+
+}
+
+.content{
+    height: 100%;
+    width: 50%;
+    background: red;
+}
